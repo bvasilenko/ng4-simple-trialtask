@@ -1,0 +1,5 @@
+<a href="javascript:void(0)" (click)="load()">Load People</a>
+
+<person *ngFor="let person of people" [person]="person"></person>
+
+<pre>{{people|json}}</pre>

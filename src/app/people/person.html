@@ -1,0 +1,4 @@
+<div>
+    <input type="text" [(ngModel)]="person.name" name="name" required [disabled]="!person.alive">
+    <span [class.mature]="isMature">{{ person.age }}</span>
+</div>
